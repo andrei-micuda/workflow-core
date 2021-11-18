@@ -118,7 +118,7 @@ host.Stop();
 
 Each step is intended to be a black-box, therefore they support inputs and outputs.  These inputs and outputs can be mapped to a data class that defines the custom data relevant to each workflow instance.
 
-The following sample shows how to define inputs and outputs on a step, it then shows how define a workflow with a typed class for internal data and how to map the inputs and outputs to properties on the custom data class.
+The following sample shows how to define inputs and outputs on a step, it then shows how to define a workflow with a typed class for internal data and how to map the inputs and outputs to properties on the custom data class.
 
 ```C#
 //Our workflow step with inputs and outputs
